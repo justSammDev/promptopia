@@ -29,7 +29,7 @@ const Feed = () => {
     try {
       const response = await fetch("/api/prompt", {
         headers: {
-          "Cache-Control": "no-store",
+          "Cache-Control": "no-store, no-cache",
         },
       });
 
